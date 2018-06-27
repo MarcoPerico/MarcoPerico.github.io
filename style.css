@@ -9,6 +9,13 @@
 .spento {
   top:-100%;
 }
+iframe {
+  top:50%;
+  left:50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-style: none;
+}
 #everything {
   display:none;
 }
@@ -57,6 +64,39 @@
   }
 }
 #cinema {
+  position: fixed;
+  overflow: hidden;
+  width:100%;
+  left:0;
+  opacity: 1;
+  height:100%;
+  z-index: 10;
+  transition: all 1.5s ease-in-out;
+  background-color: black;
+}
+#cinema2 {
+  position: fixed;
+  overflow: hidden;
+  width:100%;
+  left:0;
+  opacity: 1;
+  height:100%;
+  z-index: 10;
+  transition: all 1.5s ease-in-out;
+  background-color: black;
+}
+#cinema3 {
+  position: fixed;
+  overflow: hidden;
+  width:100%;
+  left:0;
+  opacity: 1;
+  height:100%;
+  z-index: 10;
+  transition: all 1.5s ease-in-out;
+  background-color: black;
+}
+#cinema4 {
   position: fixed;
   overflow: hidden;
   width:100%;
@@ -315,7 +355,7 @@ height:60vh;
   transition: all 1s ease-in-out;
 }
 #container16 {
-  background-image: url(dna.jpg);
+  background-image: url(edis.jpg);
   background-position:center;
   background-size: 77vw, 77vw;
   height:148vh;
@@ -327,9 +367,9 @@ height:60vh;
   transition: all 1s ease-in-out;
 }
 #container17 {
-  background-image: url(dna.jpg);
-  background-position:center;
-  background-size: 77vw, 77vw;
+  background-image: url(raganzi.jpg);
+  background-position:-90,-30;
+  background-size: 87vw, 87vw;
   height:148vh;
   width:20vw;
   left: -53%;
@@ -339,8 +379,8 @@ height:60vh;
   transition: all 1s ease-in-out;
 }
 #container18 {
-  background-image: url(dna.jpg);
-  background-position:center;
+  background-image: url(bcg.jpg);
+  background-position:-150,-70;
   background-size: 77vw, 77vw;
   height:148vh;
   width:20vw;
@@ -627,6 +667,21 @@ body {
   border-radius: 0 3px 3px 0;
 }
 #chiudi {
+  width:3.7vw;
+  height:3.7vw;
+  transition: all 1s ease-in-out;
+}
+#chiudi2 {
+  width:3.7vw;
+  height:3.7vw;
+  transition: all 1s ease-in-out;
+}
+#chiudi3 {
+  width:3.7vw;
+  height:3.7vw;
+  transition: all 1s ease-in-out;
+}
+#chiudi4 {
   width:3.7vw;
   height:3.7vw;
   transition: all 1s ease-in-out;

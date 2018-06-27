@@ -22,6 +22,18 @@ $("#chiudi").on("click", function chiudi() {
   $("#cinema").addClass("spento");
   $("#cinema").removeClass("acceso");
 })
+$("#chiudi2").on("click", function chiudis() {
+  $("#cinema2").addClass("spento");
+  $("#cinema2").removeClass("acceso");
+})
+$("#chiudi3").on("click", function chiudis2() {
+  $("#cinema3").addClass("spento");
+  $("#cinema3").removeClass("acceso");
+})
+$("#chiudi4").on("click", function chiudis3() {
+  $("#cinema4").addClass("spento");
+  $("#cinema4").removeClass("acceso");
+})
 $("#photo2").on("click", function cinema() {
   $("#cinema").addClass("acceso");
   $("#cinema").removeClass("spento");
@@ -97,20 +109,17 @@ $("#photo15").on("click", function cinema() {
   $("#cinema").removeClass("spento");
   currentSlide(15);
 })
-$("#photo16").on("click", function cinema() {
-  $("#cinema").addClass("acceso");
-  $("#cinema").removeClass("spento");
-  currentSlide(16);
+$("#photo16").on("click", function cinemas() {
+  $("#cinema2").addClass("acceso");
+  $("#cinema2").removeClass("spento");
 })
-$("#photo17").on("click", function cinema() {
-  $("#cinema").addClass("acceso");
-  $("#cinema").removeClass("spento");
-  currentSlide(17);
+$("#photo17").on("click", function cinemas() {
+  $("#cinema4").addClass("acceso");
+  $("#cinema4").removeClass("spento");
 })
-$("#photo18").on("click", function cinema() {
-  $("#cinema").addClass("acceso");
-  $("#cinema").removeClass("spento");
-  currentSlide(18);
+$("#photo18").on("click", function cinemas() {
+  $("#cinema3").addClass("acceso");
+  $("#cinema3").removeClass("spento");
 })
 function plusSlides(n) {
   showSlides(slidenum += n);
